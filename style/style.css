@@ -1,0 +1,13 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.accounts label {
+    display: inline-block;
+}
+

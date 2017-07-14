@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>OrgAcc</title>
+
+        <link  rel="stylesheet" href="style/style.css">
+
+        <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+        <script src="src/model/Account.js" ></script>
+    </head>
+
+    <body>
+
+        <h1>Organize Accounts</h1>
+        <h2>See accounts information</h2>
+        <p>This app supports the following operations:</p>
+
+        <menu>
+            <li><a href="listAccounts.html"><button type="button">
+                List all accounts
+            </button></a></li>
+            <li><a href="createAccount.html"><button type="button">
+                Create a new account
+            </button></a></li>
+            <li><a href="updateAccount.html"><button type="button">
+                Update an account
+            </button></a></li>
+            <li><a href="deleteAccount.html"><button type="button">
+                Delete account
+            </button></a></li>
+            <li><button type="button" onclick="Account.clearData()">
+                Clear database
+            </button></li>
+            <li><button type="button" onclick="Account.createTestData()">
+                Create test data
+            </button></li>
+        </menu>
+
+    </body>
+</html>
